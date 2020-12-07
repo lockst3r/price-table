@@ -57,7 +57,7 @@
   height: 50px;
 }
 .price-card__options-list-item:nth-child(odd) {
-  background: #141b1c;
+  background: #2A3438;
 }
 .price-card__options-list-mark {
   margin-left: 22px;
