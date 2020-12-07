@@ -14,7 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  max-width: 1440px;
+  height: 1000px;
   background-color: #141b1c;
 }
 
@@ -22,7 +23,7 @@
   position: relative;
   display: flex;
   margin: 0;
-  margin-right: 15px;
+  margin-right: 18px;
   flex-direction: column;
   max-width: 380px;
   width: 770px;
