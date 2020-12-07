@@ -143,7 +143,7 @@ ul {
 .page {
   height: 100vh;
   display: flex;
-  background-color: black;
+  background-color: #141b1c;
   align-items: center;
   justify-content: center;
 }
