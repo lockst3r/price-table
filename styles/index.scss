@@ -14,10 +14,12 @@ html {
 
 
 .page {
-  max-width: 1440px;
-  max-height: 1000px;
   display: flex;
-  background-color: $main-color-dark;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1400px;
+  height: 1000px;
+  background-color: $main-color-dark;
+  margin-bottom: 100px;
 }
