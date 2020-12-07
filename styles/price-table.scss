@@ -1,22 +1,10 @@
-.first-card {
-  background-color: #5bb189;
-}
-
-.second-card {
-  background-color: #3a6ba5;
-}
-
-.third-card {
-  background-color: #ec632a;
-}
-
 .price-tables {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1440px;
   height: 1000px;
-  background-color: #141b1c;
+  background-color: $main-color-dark;
 }
 
 .price-card {
@@ -28,7 +16,7 @@
   align-items: center;
   width: 380px;
   height: 770px;
-  background-color: #334247;
+  background-color: $main-color-dark-light;
   overflow: hidden;
 }
 
@@ -91,7 +79,7 @@
 }
 
 .price-card__row_dark {
-  background-color: #334247;
+  background-color: $main-color-dark-light;
 }
 
 .price-card__button {
@@ -115,39 +103,11 @@
   overflow: hidden;
   top: 31px;
   left: 264px;
-  background-color: #dc3f45;
+  background-color: $color-red;
   transform: rotate(45deg);
   height: 25px;
   width: 147px;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }

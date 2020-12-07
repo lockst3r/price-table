@@ -1,13 +1,15 @@
-@import 'common.scss';
-@import 'table.scss';
 @import 'variables.scss';
+@import 'common.scss';
+@import 'price-table.scss';
+
 * {
   box-sizing: border-box;
 }
+
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  color: #ffffff;
+  color: $main-color-white;
 }
 
 h1,
@@ -26,10 +28,4 @@ p {
 ul {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: #141b1c;
-  width: 1440px;
-  height: 1000px;
 }
