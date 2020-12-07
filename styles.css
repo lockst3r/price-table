@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   margin: 0;
+  margin-top: 115px;
+  margin-bottom: 115px;
   margin-right: 15px;
   max-width: 380px;
   height: 770px;
@@ -124,7 +126,7 @@ html {
 
 .page {
   max-width: 1440px;
-  height: 1000px;
+  max-height: 1000px;
   display: flex;
   background-color: #141b1c;
   align-items: center;

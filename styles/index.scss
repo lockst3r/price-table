@@ -15,7 +15,7 @@ html {
 
 .page {
   max-width: 1440px;
-  height: 1000px;
+  max-height: 1000px;
   display: flex;
   background-color: $main-color-dark;
   align-items: center;
