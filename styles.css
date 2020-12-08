@@ -8,7 +8,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 0;
   margin-right: 15px;
   max-width: 380px;
   background-color: #334247;
@@ -128,11 +127,7 @@ html {
 }
 
 .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   background-color: #141b1c;
-  margin-bottom: 100px;
 }
